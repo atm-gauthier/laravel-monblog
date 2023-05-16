@@ -1,6 +1,5 @@
 @extends('front.layout')
 @section('hero')
-
     @isset($heros)
         <section id="hero" class="s-hero">
           <div class="s-hero__slider">
@@ -28,7 +27,6 @@
           </div>
         </section>
     @endisset
-
 @endsection
 @section('main')
 @endsection
